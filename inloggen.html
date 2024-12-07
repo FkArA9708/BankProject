@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Inloggen pagina Furkan Kara</title>
+</head>
+<body id="inloggen-body">
+
+    
+<!--navigatiebalk sectie-->
+
+    <section class="container-navigatiebalk">
+    <img src="Logo/movobank logo.png" alt="Movobank" id="Movobank" width="170" height="75">
+    <div class="Navigatiebalk-Home-login">
+        <ul class="Nav-Home-login">
+            <li>Home</li>
+            <li>Rekeningen</li>
+            <li>Beschrijvingen</li>
+        </ul>
+    </div>
+</section>
+<!--inloggen dashboard-->
+<section class="container-inloggen">
+    <br>
+    <br>
+    <h1 id="inloggen">Inloggen</h1>
+    <div class="dashboard-inloggen">
+       <ul class="persoonlijkzakelijk">
+        <li><a href="#" id="persoonlijkzakelijkk">Persoonlijk</a></li>
+        <p>|</p>
+        <li><a href="#" id="persoonlijkzakelijkk">Zakelijk</a></li>
+       </ul>
+       
+    
+       
+       <form action="process-login.php" method="post" class="login-form">
+        <label for="gebruikersnaam" id="tekst-formulier">Gebruikersnaam</label>
+       <input type="text" name="gebruikersnaam" id="gebruikersnaam2" minlength="1" maxlength="20" required>
+
+       <label for="wachtwoord" id="tekst-formulier2">Wachtwoord</label>
+       <input type="password" name="wachtwoord" id="wachtwoord" minlength="1" maxlength="20" required>
+
+       <br>
+       <label>
+        <input type="checkbox" name="onthoudmijnwachtwoord" id="onthoudmijnwachtwoord">
+        <span class="custom-checkbox"></span>
+        <p id="onthoud">Onthoud mijn wachtwoord</p>
+    </label>
+        <br>
+        <br>
+        <button type="submit" id="Inloggen-tekst">Inloggen</button>
+        <a href="#" id="vergeten">Wachtwoord vergeten?</a>
+    </form>
+    </div>
+</section>
+<!--footer inloggen-->
+    <section class="container-footer">
+        <img src="Logo/movobank logo.png" alt="Movobank" id="Movobank-footer" width="170" height="75">
+    
+        <ul class="contact">
+        <p id="subkop-contact">Contact:</p>
+        <li>Pannenkoekstraat 85</li>
+        <li>0655893620</li>
+        <li>Support@movobank.nl</li>
+        </ul>
+    
+        <ul class="openingstijden">
+        <p id="subkop-vestigingen">Openingstijden Vestigingen:</p>
+        <li>Ma t/m Vr: 09:00 - 18:00</li>
+        <li>Za: 10:00 - 16:00</li>
+        <li>Zo: Gesloten</li>
+        </ul>
+    
+        <ul class="openingstijden-klantenservice">
+        <p id="subkop-klantenservice">Openingstijden Klantenservice:</p>
+        <li>Ma t/m Vr: 08:00 - 20:00</li>
+        <li>Za: 09:00 - 17:00</li>
+        <li>Zo: 10:00 - 14:00</li>
+        </ul>
+    
+        <ul class="veiligheid-en-privacy">
+        <p id="subkop-veiligheid-en-privacy">Veiligheid en Privacy:</p>
+        <li>Privacyverklaring</li>
+        <li>Cookiesbeleid</li>
+        <li>Informatie over phishing en fraude</li>
+        </ul>
+    
+        <ul class="juridische-informatie">
+        <p id="subkop-juridische-informatie">Juridische informatie:</p>
+        <li>Algemene voorwaarden</li>
+        <li>Licentie-informatie</li>
+        <li>Disclaimer voor beleggingsrisico's</li>
+        </ul>
+    
+        <ul class="klantenservice-en-faq">
+            <p id="subkop-klantenservice-en-faq">Klantenservice en FAQ</li>
+        </ul>
+    
+        <ul class="sociaal-media">
+            <img src="images/linkedin_3536569.png" alt="LinkedIn" id="LinkedIn">
+            <img src="images/instagram_1384031.png" alt="Instagram" id="Instagram">
+            <img src="images/facebook_1384021.png" alt="Facebook" id="Facebook">
+            <img src="images/twitter_11823292.png" alt="X" id="X">
+        </ul>
+    </ul>
+    
+    </section>
+    <script src="inloggen.js"></script>
+</body>
+</html>
