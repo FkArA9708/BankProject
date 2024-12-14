@@ -879,3 +879,99 @@ input[type="checkbox"] {
      margin-right: 40px;
 }
 
+
+/* OMSCHRIJVINGEN PAGINA */
+
+#overschrijvingen {
+     margin-left: 106px;
+     margin-top: 100px;
+     color: #1B5A8C;
+     font-size: 35px;
+     font-family: "molde", sans-serif;
+}
+
+#transferForm {
+     border: 1px solid #E8F2FB;
+     background-color: #E8F2FB;
+     border-radius: 15px;
+     width: 1180px;
+     height: 220px;
+     margin-left: 50px;
+     margin-right: 50px;
+     position: relative;
+     padding: 100px;
+}
+
+#labelfromAccount {
+     font-family: "molde", sans-serif;
+    color: #1B5A8C;
+    font-size: 20px;
+    position: relative;
+    bottom: 80px;
+    right: 44px;
+}
+
+#labeltoAccount {
+     font-family: "molde", sans-serif;
+    color: #1B5A8C;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    right: 44px;
+}
+
+#labelamount {
+     font-family: "molde", sans-serif;
+    color: #1B5A8C;
+    font-size: 20px;
+    position: relative;
+    right: 43px;
+}
+
+#fromAccount {
+    border-radius: 5px;
+    border: none;
+    background-color: #FDFDFD;
+    width: 1260px;
+    height: 30px;
+    position: relative;
+    right: 43px;
+    bottom: 60px;
+}
+
+#toAccount {
+     border-radius: 5px;
+    border: none;
+    background-color: #FDFDFD;
+    width: 1260px;
+    height: 30px;
+    position: relative;
+    right: 43px;
+    bottom: 20px;
+}
+
+#amount {
+     border-radius: 5px;
+    border: none;
+    background-color: #FDFDFD;
+    width: 1260px;
+    height: 30px;
+    position: relative;
+    right: 43px;
+    top: 20px;
+}
+
+#overschrijvenbutton {
+     padding: 10px;
+    font-family: "molde", sans-serif;
+    color: white;
+    background-color: #1B5A8C;
+    border-radius: 15px;
+    border: 0px solid;
+    width: 1000px;
+    font-size: 20px;
+    position: relative;
+    top: 55px;
+    left: 85px;
+}
+
