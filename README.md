@@ -33,25 +33,25 @@ Ik heb een video gemaakt een jaar geleden waarin ik mijn code uitleg en een rond
 
 ## Functionaliteiten
 
-- **Inlogsysteem** – Meerdere gebruikers met eigen inloggegevens.
-- **Dashboard** – Persoonlijk overzicht met saldo, recente transacties, notificaties, berichten en instellingen.
-- **Rekeningen beheren** – Nieuwe betaal‑ of spaarrekeningen aanmaken.
-- **Overschrijvingen** – Geld overboeken tussen rekeningen.
-- **Beleggingen** – Kopen/verkopen van aandelen (TechCorp, Tesla, etc.) en crypto (Bitcoin, Ethereum, etc.) met realtime prijsfluctuatie.
-- **Cryptoportefeuille** – Aparte pagina voor crypto‑investeringen.
-- **Transactiegeschiedenis** – Filteren op type en datum.
-- **Dark mode (deels)** – Instellingen op dashboard passen thema aan.
+- **Inlogsysteem**, Meerdere gebruikers met eigen inloggegevens.
+- **Dashboard**, Persoonlijk overzicht met saldo, recente transacties, notificaties, berichten en instellingen.
+- **Rekeningen beheren**, Nieuwe betaal‑ of spaarrekeningen aanmaken.
+- **Overschrijvingen**, Geld overboeken tussen rekeningen.
+- **Beleggingen**, Kopen/verkopen van aandelen (TechCorp, Tesla, etc.) en crypto (Bitcoin, Ethereum, etc.) met realtime prijsfluctuatie.
+- **Cryptoportefeuille**, Aparte pagina voor crypto‑investeringen.
+- **Transactiegeschiedenis**, Filteren op type en datum.
+- **Dark mode (deels)**, Instellingen op dashboard passen thema aan.
 
 ---
 
 ## Technologieën
 
-- **HTML5** – Opbouw van alle pagina’s.
-- **CSS3** - styling, flexbox, keyframes en media queries.
-- **JavaScript (ES6)** – Interactie, DOM‑manipulatie, localStorage, simulatie van prijswijzigingen.
-- **Figma** – Wireframes en visueel ontwerp.
-- **Trello** – Scrumboard voor planning en voortgang.
-- **Git / GitHub** – Versiebeheer en repository.
+- **HTML5**, Opbouw van alle pagina’s.
+- **CSS3**, styling, flexbox, keyframes en media queries.
+- **JavaScript (ES6)**, Interactie, DOM‑manipulatie, localStorage, simulatie van prijswijzigingen.
+- **Figma**, Wireframes en visueel ontwerp.
+- **Trello**, Scrumboard voor planning en voortgang.
+- **Git / GitHub**, Versiebeheer en repository.
 
 ---
 
@@ -59,10 +59,10 @@ Ik heb een video gemaakt een jaar geleden waarin ik mijn code uitleg en een rond
 
 Het ontwerp is gestart met pen‑en‑papier schetsen, daarna uitgewerkt in **Figma**. De belangrijkste keuzes:
 
-- **Logo** – Zelf gekozen van internet, past bij moderne bank.
-- **Kleurenpalet** – Lichtblauw (`#E8F2FB`), donkerblauw (`#1B5A8C`), wit en zwart. Deze kleuren stralen rust, betrouwbaarheid en professionaliteit uit.
-- **Typografie** – Twee fonts: `molde` (voor headings) en `Arial`/`Helvetica` (voor leestekst). Beide zijn goed leesbaar.
-- **Iconen** – Gratis pictogrammen (notificaties, gebruikers, etc.) voor een herkenbare interface.
+- **Logo**, Zelf gekozen van internet, past bij moderne bank.
+- **Kleurenpalet**, Lichtblauw (`#E8F2FB`), donkerblauw (`#1B5A8C`), wit en zwart. Deze kleuren stralen rust, betrouwbaarheid en professionaliteit uit.
+- **Typografie**, Twee fonts: `molde` (voor headings) en `Arial`/`Helvetica` (voor leestekst). Beide zijn goed leesbaar.
+- **Iconen**, Gratis pictogrammen (notificaties, gebruikers, etc.) voor een herkenbare interface.
 
 ---
 
@@ -71,7 +71,7 @@ Het ontwerp is gestart met pen‑en‑papier schetsen, daarna uitgewerkt in **Fi
 1. **Clone de repository**
    
    ```bash
-   git clone https://github.com/FurkanKara/movobank.git
+   git clone https://github.com/FurkanKara/BankProject.git
    ```
 Open het project
 Navigeer naar de map en open index.html in een moderne browser (Chrome, Firefox, Edge).
@@ -92,33 +92,61 @@ Gebruikersnaam: admin – Wachtwoord: admin123
 movobank/
 
 Fonts/                      # Custom fonts (molde, sofia sans)
+
 images/                      # Alle afbeeldingen (icons, unsplash‑foto's)
+
 Logo/                        # MovoBank logo
+
 Ontwerp/                     # Eerste schetsen in MS Paint
+
 week5 t/m week9/             # Bestanden per ontwikkelweek (geschiedenis)
+
 index.html                   # Startpagina
+
 app.js                       # Cookie banner
+
 Bank project Trello link.docx
+
 Bank project wireframe furkan kara.fig
+
 Bank project wireframe furkan kara.pdf
+
 beleggingen.html             # Beleggingen (aandelen + crypto)
+
 beleggingen.js               # Aandelen kopen/verkopen
+
 berekeningen.html            # Rekeningenoverzicht
+
 berekeningen.js              # Rekeningen aanmaken
+
 cryptovaluta.html            # Cryptovaluta specifiek
+
 cryptovaluta.js              # Crypto kopen/verkopen
+
 dashboard.html               # Persoonlijk dashboard
+
 dashboard.js                 # Dashboard functionaliteit (modals, saldo)
+
 index.html                   # Homepagina
+
 inloggen.html                # Inlogpagina
+
 inloggen.js                  # Loginvalidatie
+
 omschrijvingen.html          # Overschrijvingsformulier
+
 omschrijvingen.js            # Overschrijvingen logica
+
 Presentatie voorbereiding Movobank Furkan Kara.docx
+
 Sprint review Furkan Kara Bank Project 7-12-2024
+
 style.css                    # Alle styling
+
 transactiegeschiedenis.html  # Filterbare transacties
+
 transactiegeschiedenis.js    # Filteren transacties
+
 video movobank project furkan kara.mkv   # Uitleg van mijn code en schermopname van de website
 
 
@@ -126,15 +154,19 @@ video movobank project furkan kara.mkv   # Uitleg van mijn code en schermopname 
 Tijdens het ontwikkelen ben ik een aantal obstakels tegengekomen:
 
 **Real‑time prijswijzigingen bij beleggingen**
+
 Oplossing: setInterval gebruikt om elke 3 seconden een kleine fluctuatie aan de bezittingen toe te voegen. Hierdoor lijkt het alsof de markt beweegt.
 
 **Resultaten tonen na een transactie**
+
 Oplossing: Met innerHTML en dynamische styling worden succes‑ of foutmeldingen inclusief een icoon weergegeven.
 
 **Filteren van transactiegeschiedenis**
+
 Oplossing: Een array van transacties filteren op geselecteerd type en datum, en de resultaten opnieuw in de DOM plaatsen.
 
 **Dark mode (beperkt)**
+
 Oplossing: Via instellingen in het dashboard wordt het thema aangepast. Vanwege tijdsgebrek is dit nog niet overal doorgevoerd.
 
 
