@@ -7,6 +7,7 @@ const users = [
 ];
 
 
+
 const username = localStorage.getItem('furkankara', 'janpiet', 'admin', 'tariq', 'ahmad');
 
 
@@ -16,6 +17,8 @@ if (username) {
 } else {
     console.error('Geen gebruikersnaam gevonden in localStorage.');
 }
+
+
 
 
 //rekening gedeelte

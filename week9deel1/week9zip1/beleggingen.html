@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beleggingen pagina Furkan Kara</title>
+</head>
+<body>
+    <body id="beleggingen-body"></body>
+
+<!--navigatiebalk sectie-->
+
+<section class="container-navigatiebalk">
+    <img src="Logo/movobank logo.png" alt="Movobank" id="Movobank" width="170" height="75">
+    <div class="Navigatiebalk-Home">
+        <ul class="Nav-Home">
+            <li><a href="index.html">Home</a></li>
+            <li><a href='berekeningen.html'>Rekeningen</a></li>
+            <li><a href='omschrijvingen.html'>Omschrijvingen</a></li>
+            <div id="login"><a href='inloggen.html' id="inloggenid">Inloggen</p></a>
+        </ul>
+    </div>
+</section>
+
+<!--Beleggingen sectie-->
+
+<h1 id="beleggingen-h1">Beleggingen</h1>
+<main class="container-beleggingen">
+    <form id="beleggingen-form">
+        <section class="sectieinformatiegebruiker">
+                <div id="informatiegebruiker">
+                <img src="images/user_1077114.png" alt="gebruiker" id="gebruiker-foto" width="70px" height="70px">
+                <h2 id="gebruikersnaam-beleggingen"></h2>
+                <h2 id="bedragbeleggingen-waarde"></h2> 
+                </div>
+                </section>
+    
+        <label for="categorie" id="categorie">Kies categorie</label>
+        <select id="optiesbeleggingen" required>
+            <option value="aandelen" id="aandelenoption">Aandelen</option>
+            <option value="cryptooption">Crypto</option>
+        </select>
+
+<!-- Aangepaste select voor producten -->
+<select id="productenopties" required>
+    <option value="techcorp">TechCorp</option>
+    <option value="tesla">Tesla</option>
+    <option value="facebook">Facebook</option>
+    <option value="apple">Apple</option>
+</select>
+
+<select id="productenopties-crypto" required style="display: none;">
+    <option value="bitcoin">Bitcoin</option>
+    <option value="etherium">Etherium</option>
+    <option value="litecoin">Litecoin</option>
+    <option value="wrappedbitcoin">Wrapped Bitcoin</option>
+</select>
+
+
+        <ul class="beleggingeninfo">
+            <li id="bedraginfo">Saldo: <span id="huidige-prijs">€0.00</span></li>
+            <li id="inbezit">In bezit:</li>
+        </ul>
+        
+
+        <label for="inputbedragbeleggingen" id="inputbedragbeleggingenlabel">Bedrag</label>
+        <input type="number" id="inputbedragbeleggingen" required>
+        <ul class="buttons">
+        <li><button type="button" id="buttonkopen">Kopen</button></li>
+        <li><button type="button" id="buttonverkopen">Verkopen</button></li>
+        </ul>
+        </section>
+        <section id="resultatenbeleggingen"></section>
+        <img id="afbeeldingresultaat">
+        </section>
+    </form>
+    </main>
+
+    <!--footer sectie-->
+
+<section class="container-footer">
+    <img src="Logo/movobank logo.png" alt="Movobank" id="Movobank-footer" width="170" height="75">
+
+    <ul class="contact">
+    <p id="subkop-contact">Contact:</p>
+    <li>Pannenkoekstraat 85</li>
+    <li>0655893620</li>
+    <li>Support@movobank.nl</li>
+    </ul>
+
+    <ul class="openingstijden">
+    <p id="subkop-vestigingen">Openingstijden Vestigingen:</p>
+    <li>Ma t/m Vr: 09:00 - 18:00</li>
+    <li>Za: 10:00 - 16:00</li>
+    <li>Zo: Gesloten</li>
+    </ul>
+
+    <ul class="openingstijden-klantenservice">
+    <p id="subkop-klantenservice">Openingstijden Klantenservice:</p>
+    <li>Ma t/m Vr: 08:00 - 20:00</li>
+    <li>Za: 09:00 - 17:00</li>
+    <li>Zo: 10:00 - 14:00</li>
+    </ul>
+
+    <ul class="veiligheid-en-privacy">
+    <p id="subkop-veiligheid-en-privacy">Veiligheid en Privacy:</p>
+    <li>Privacyverklaring</li>
+    <li>Cookiesbeleid</li>
+    <li>Informatie over phishing en fraude</li>
+    </ul>
+
+    <ul class="juridische-informatie">
+    <p id="subkop-juridische-informatie">Juridische informatie:</p>
+    <li>Algemene voorwaarden</li>
+    <li>Licentie-informatie</li>
+    <li>Disclaimer voor beleggingsrisico's</li>
+    </ul>
+
+    <ul class="klantenservice-en-faq">
+        <p id="subkop-klantenservice-en-faq">Klantenservice en FAQ</li>
+    </ul>
+
+    <ul class="sociaal-media">
+        <img src="images/linkedin_3536569.png" alt="LinkedIn" id="LinkedIn">
+        <img src="images/instagram_1384031.png" alt="Instagram" id="Instagram">
+        <img src="images/facebook_1384021.png" alt="Facebook" id="Facebook">
+        <img src="images/twitter_11823292.png" alt="X" id="X">
+    </ul>
+</ul>
+</section>
+    <script src="beleggingen.js"></script>
+</body>
+</html>
