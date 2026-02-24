@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Inhoudsopgave
+## Inhoudsopgave
 
 - Overzicht
 - Schermopname van de website
